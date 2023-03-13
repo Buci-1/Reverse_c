@@ -1,0 +1,26 @@
+| 或运算：只要有一个为去结果就为q
+& 与运算：2个都为1才是1
+^ 异或运算：不一样为1
+
+32 位通用寄存器的指定用途如下 ：
+寄存器   主要用途                                   编号
+
+EAX     累加器                                      0
+ECX     计数                                        1
+EDX     I / 0 指针                                  2
+EBXDS   段的数据指针                                 3
+ESP     堆栈指针                                     4
+EBP     ss段的数据指针                                5   
+ESI     字符串操作的源指针 ； ss 段的数据指针           6
+EDI     字符串操作的目标指针 ； ES 段的数据指针         7
+
+存储数据的范围
+0 一 0xFFFFFFFF
+0 一 0xFFFFFFFF
+0 一 0xFFFFFFFF
+0 一 0xFFFFFFFF
+0 一 0xFFFFFFFF
+0 一 0xFFFFFFFF
+0 一 0xFFFFFFFF
+0 一 0xFFFFFFFF
+
